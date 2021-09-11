@@ -1,4 +1,4 @@
-str = ('Hello')
+str = ('Hello') # тип string
 print(str)
 print(type(str))
 int = 10
