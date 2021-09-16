@@ -1,0 +1,172 @@
+{
+	"id": "b682b036-35a9-4fc0-b8a5-a29693b1d3a6",
+	"name": "HW_1_Postman",
+	"timestamp": "2021-09-15T16:33:45.271Z",
+	"collection_id": "0-c195f5f4-310d-4909-8add-eb19bd088bf1",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "555203a0-6fac-4c4a-aac2-54ab553d019d",
+			"name": "HW_1_EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Aliona&age=28",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				99
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a2d90ee2-a874-4ed1-b5e7-67f59affe591",
+			"name": "HW_1_EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 93,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				93
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e3708737-fbbc-4e9d-9d7c-e333b897b149",
+			"name": "HW_1_EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Aliona&age=28&weight=58",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				132
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1007ec65-1b34-4aff-abe2-70b8f298e61b",
+			"name": "HW_1_EP_4",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Aliona&age=28&salary=1650",
+			"time": 92,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				92
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "93df6022-93c5-4f0d-ad6b-c333f69553b2",
+			"name": "HW_1_EP_5",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Aliona&age=28&salary=1700",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				89
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ce878ee4-5a87-4d4e-ac49-8b1bb52172e5",
+			"name": "HW_1_EP_6",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Aliona&age=28&salary=1600",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				77
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ac3a9b05-04f5-44ce-98f4-322fcc1a30a0",
+			"name": "HW_1_EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 672,
+	"collection": {
+		"requests": [
+			{
+				"id": "555203a0-6fac-4c4a-aac2-54ab553d019d",
+				"method": "GET"
+			},
+			{
+				"id": "a2d90ee2-a874-4ed1-b5e7-67f59affe591",
+				"method": "POST"
+			},
+			{
+				"id": "e3708737-fbbc-4e9d-9d7c-e333b897b149",
+				"method": "GET"
+			},
+			{
+				"id": "1007ec65-1b34-4aff-abe2-70b8f298e61b",
+				"method": "GET"
+			},
+			{
+				"id": "93df6022-93c5-4f0d-ad6b-c333f69553b2",
+				"method": "GET"
+			},
+			{
+				"id": "ce878ee4-5a87-4d4e-ac49-8b1bb52172e5",
+				"method": "GET"
+			},
+			{
+				"id": "ac3a9b05-04f5-44ce-98f4-322fcc1a30a0",
+				"method": "POST"
+			}
+		]
+	}
+}
